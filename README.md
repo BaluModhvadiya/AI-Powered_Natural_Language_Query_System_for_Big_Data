@@ -117,6 +117,21 @@ PBSBDA/
 
 ---
 
+## **Project Assessment**
+
+PBSBDA already integrates a complete analytics workflow: a FastAPI + Spark backend for heavy data processing and a Vite/React frontend with TailwindCSS styling for an interactive dashboard. The feature set demonstrates a capable proof of concept that can translate natural-language prompts into SQL, execute the generated query at scale, and surface insights through charts. These qualities make the project a strong foundation for continued development or stakeholder demos.
+
+To elevate it from prototype to production-ready, plan for the following enhancements:
+
+- Add automated tests for both the FastAPI endpoints and Spark transformations to ensure data correctness during future iterations.
+- Implement authentication/authorization so sensitive datasets remain protected while querying.
+- Replace hard-coded API URLs in the frontend with environment-aware configuration and add robust error boundaries around network calls.
+- Provide onboarding datasets and seed scripts so new contributors can quickly load realistic data samples.
+
+With these improvements prioritized, PBSBDA can mature into a reliable internal analytics assistant or a marketable product offering.
+
+---
+
 ## **Contributing**
 
 Contributions are welcome! Please follow the steps in the `CONTRIBUTING.md` file (coming soon).
