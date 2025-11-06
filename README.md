@@ -1,4 +1,4 @@
-# PBSBDA
+# AI-Powered Natural Language Query System for Big Data
 Prompt based search in big data analytics
 
 # PBSBDA - Big Data Analytics Query Dashboard
